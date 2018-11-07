@@ -1,0 +1,8 @@
+#header {
+    display: inline-block;
+    background-color: #1d1d1d;
+}
+#header > div {
+    width: 100vw;
+    height: 100vh;
+}
