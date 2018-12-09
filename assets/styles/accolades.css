@@ -97,6 +97,12 @@
     border-radius: 25px;
 }
 
+#blockhack {
+    max-width: 80%;
+    margin-top: 35%;
+    margin-left: -7.5%;
+}
+
 #thacks {
     max-width: 70%;
     margin-top: 22%;
