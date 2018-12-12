@@ -246,11 +246,11 @@ body {
     color: #fc3;
 }
 
-#nohighlight {
+.nohighlight {
     color: hsla(0, 0%, 94%, .5);
 }
 
-#nohighlight:hover {
+.nohighlight:hover {
     color: hsla(0, 0%, 94%, .5);
 }
 

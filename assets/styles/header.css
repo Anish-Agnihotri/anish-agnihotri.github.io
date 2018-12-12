@@ -2,13 +2,14 @@
 #header {
     display: inline-block;
     background-color: #171717;
+    width: 100%;
 }
 
 #header>div:first-child {
-    width: 100vw;
     height: 100vh;
     text-align: left;
     margin-bottom: -16.5vh;
+    width: 100%;
 }
 
 .title {
@@ -27,7 +28,7 @@
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
-    transform: translateX(10%);
+    padding-left: 10%;
 }
 
 .title>h2 {
