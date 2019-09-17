@@ -215,6 +215,14 @@ body {
     margin-top: 21%;
 }
 
+#htn {
+    margin-top: 25%;
+}
+
+#algorand {
+    margin-top: 25%;    
+}
+
 .ethuoft {
     margin-top: 15% !important; /* Overriding existing 20% style */
 }
