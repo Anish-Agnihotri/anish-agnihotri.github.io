@@ -29,6 +29,21 @@ body {
     line-height: 40px;
 }
 
+#aboutCTA>div:last-child>p>a {
+    padding-bottom: .15em;
+    color: #fc3;
+    font-weight: 100;
+    font-style: italic;
+    border-bottom: 1px solid #fc3;
+    text-decoration: none;
+    transition: 0.15s ease-in-out;
+    font-size: .9em;
+}
+
+#aboutCTA>div:last-child>p>a:hover {
+    padding-bottom: 0em;
+}
+
 #aboutCTA>div:first-child {
     width: 50%;
     float: right;
