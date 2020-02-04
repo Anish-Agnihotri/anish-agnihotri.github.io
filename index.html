@@ -30,7 +30,9 @@
     <!-- Header/landing section -->
     <div id="header">
         <div>
-            <h1><strong>WELCOME</strong></h1>
+            <h1><strong>
+                <span class="wow fadeIn" data-wow-delay="0.1s">W</span><span class="wow fadeIn" data-wow-delay="0.15s">E</span><span class="wow fadeIn" data-wow-delay="0.2s">L</span><span class="wow fadeIn" data-wow-delay="0.25s">C</span><span class="wow fadeIn" data-wow-delay="0.3s">O</span><span class="wow fadeIn" data-wow-delay="0.4s">M</span><span class="wow fadeIn" data-wow-delay="0.45s">E</span>
+            </strong></h1>
             <div class="title">
                 <h2>Anish Agnihotri</h2>
                 <h5>STUDENT DEVELOPER</h5>
@@ -262,7 +264,7 @@
                 <a href="mailto:internship@anishagnihotri.com" class="highlight">internship@anishagnihotri.com</a>
             </div>
             <div id="linkFocus">
-                <a class="link" id="github" href="https://github.com/Anish-Agnihotri" target="_blank" rel="noopener">
+                <a class="link wow fadeIn" data-wow-delay="0.1s" id="github" href="https://github.com/Anish-Agnihotri" target="_blank" rel="noopener">
                     <article>
                         <h4>Github</h4>
                         <p>cool code commits</p>
@@ -272,7 +274,7 @@
 
                     </div>
                 </a>
-                <a class="link" id="dribbble" href="https://dribbble.com/anishagnihotri" target="_blank" rel="noopener">
+                <a class="link wow fadeIn" data-wow-delay="0.2s" id="dribbble" href="https://dribbble.com/anishagnihotri" target="_blank" rel="noopener">
                     <article>
                         <h4>Dribbble</h4>
                         <p>little design diary</p>
@@ -282,7 +284,7 @@
 
                     </div>
                 </a>
-                <a class="link" id="devpost" href="https://devpost.com/348712712" target="_blank" rel="noopener">
+                <a class="link wow fadeIn" data-wow-delay="0.3s" id="devpost" href="https://devpost.com/348712712" target="_blank" rel="noopener">
                     <article>
                         <h4>Devpost</h4>
                         <p>hackathon accolades</p>
@@ -292,7 +294,7 @@
 
                     </div>
                 </a>
-                <a class="link" id="gitcoin" href="https://gitcoin.co/anish-agnihotri" target="_blank" rel="noopener">
+                <a class="link wow fadeIn" data-wow-delay="0.4s" id="gitcoin" href="https://gitcoin.co/anish-agnihotri" target="_blank" rel="noopener">
                     <article>
                         <h4>Gitcoin</h4>
                         <p>open source work</p>
@@ -360,6 +362,7 @@
     <!-- Script imports + custom in-file. -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         $(".scroller").owlCarousel({ items: 3, itemsDesktop: [881, 3], itemsTablet: [880, 2], itemsTabletSmall: [590, 1], autoPlay:
         false, responsive: true, navigation: false, }); $(document).on('click', 'a[href^="#"]', function (event) { event.preventDefault();
@@ -367,6 +370,7 @@
         y = $(this).scrollTop(), speed = 0.3, spin = (y * speed), $spinner = $('.gear'); $spinner.css({ '-webkit-transform': 'rotate('
         + spin + 'deg)', '-moz-transform': 'rotate(' + spin + 'deg)', '-o-transform': 'rotate(' + spin + 'deg)', 'transform': 'rotate('
         + spin + 'deg)' }); });
+        new WOW().init();
     </script>
 </body>
 
