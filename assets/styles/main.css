@@ -68,7 +68,7 @@ body {
 #aboutCTA>div:last-child>p {
     color: #fff;
     font-size: 15px;
-    line-height: 22px;
+    line-height: 23px;
 }
 
 .highlightColor {
@@ -147,6 +147,7 @@ body {
     max-width: 1000px;
     display: inline-block;
     margin-left: calc((100vw - 1000px) /2);
+    margin-top: -7vw;
     padding-bottom: 20px;
 }
 
@@ -204,9 +205,17 @@ body {
 }
 
 #accolades>h3 {
-    font-size: 22px;
-    color: #fff;
-    line-height: 40px;
+    font-size: 10vw;
+    letter-spacing: 2px;
+    color: hsla(0, 0%, 95%, .1);
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    margin-block-start: 10px;
+    margin-block-end: 0px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 #accolades>p {
@@ -570,6 +579,12 @@ body {
     #subfooter {
         padding-top: 75px;
     }
+    #accolades>h3 {
+        font-size: 35px;
+    }
+    .scroller {
+        margin-top: -10px;
+    }
 }
 
 @media screen and (min-width: 1060px) {
@@ -589,6 +604,12 @@ body {
         float: left;
         text-align: left;
         padding-right: 1%;
+    }
+    #accolades>h3 {
+        font-size: 100px;
+    }
+    .scroller {
+        margin-top: -65px;
     }
 }
 
@@ -623,6 +644,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0;
     padding-left: 10%;
+}
+
+#header>div>h1>strong>span {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .title>h2 {
