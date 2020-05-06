@@ -661,11 +661,11 @@ body {
 }
 
 .title>h5 {
-    margin-top: -1em;
+    margin-top: -1.5em;
     margin-bottom: 1.2em;
     color: #fc3;
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .title>p {
