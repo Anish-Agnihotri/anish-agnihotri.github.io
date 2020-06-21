@@ -178,6 +178,11 @@ body {
     padding-top: 5px;
 }
 
+.longAccoladeTitle {
+    font-size: 0.9rem !important;
+    margin-top: 29px;
+}
+
 .accoladeItem>div:first-child>p {
     font-size: 0.9em;
     color: #fc3;
@@ -226,6 +231,11 @@ body {
 
 #scrollText {
     color: #595959 !important;
+}
+
+#nybw {
+    border-radius: 50%;
+    margin-top: 27%;
 }
 
 #consensys {
